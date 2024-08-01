@@ -523,26 +523,27 @@ DECORS PAGE
 */
 
 
-#decor__body {
+#decors__body {
     background-color: rgba(115, 66, 214, 0.1);
     flex: 1;
     display: flex;
     flex-direction: column;
 }
   
-#decor__main {
+#decors__main {
     flex: 1;
     background-color: rgb(248,249,250);
 }
   
-.decor__header {
+.decors__header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
 }
   
-.decor__header--title {
+.decors__header--title {
     margin-bottom: 0;
 }
   
@@ -558,7 +559,6 @@ select {
   padding: 0 16px;
   width: 100%;
   max-width: 200px;
-
 }
   
 .decor__loading {
