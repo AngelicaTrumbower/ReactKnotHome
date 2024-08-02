@@ -783,6 +783,7 @@ select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 24px;
 }
   
 .cart__empty--img {

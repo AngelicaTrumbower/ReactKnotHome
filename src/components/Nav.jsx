@@ -29,9 +29,6 @@ const Nav = ({ numberOfItems }) => {
               Decor
             </Link>
           </li>
-          <button className="btn__menu" onClick={openMenu}>
-            <FontAwesomeIcon icon="bars" />
-          </button>
           <li className="nav__icon">
             <Link to="/cart" className="nav__link">
               <FontAwesomeIcon icon="shopping-cart" />
@@ -41,6 +38,9 @@ const Nav = ({ numberOfItems }) => {
             )}
           </li>
         </ul>
+        <button className="btn__menu" onClick={openMenu}>
+          <FontAwesomeIcon icon="bars" />
+        </button>
         <div className="menu__backdrop">
           <button className="btn__menu btn__menu--close" onClick={closeMenu}>
             <FontAwesomeIcon icon="times" />
@@ -52,7 +52,7 @@ const Nav = ({ numberOfItems }) => {
               </Link>
             </li>
             <li className="menu__list">
-              <Link to="/decor" className="menu__link" onClick={closeMenu}>
+              <Link to="/decors" className="menu__link" onClick={closeMenu}>
                 Decor
               </Link>
             </li>
