@@ -440,7 +440,6 @@ HIGHLIGHTS
 
 .decor__title:hover {
     text-decoration: underline;
-    cursor: not-allowed;
 }
 
 .decor__ratings {
@@ -755,7 +754,7 @@ select {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 0 24px;
+    padding: 0 24px 24px 24px;
     width: 100%;
     max-width: 300px;
     margin-left: auto;

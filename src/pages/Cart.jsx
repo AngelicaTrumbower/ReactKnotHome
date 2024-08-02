@@ -55,6 +55,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                           type="number"
                           min={0}
                           max={99}
+                          step="1"
                           className="cart__input"
                           value={decor.quantity}
                           onChange={(event) =>
